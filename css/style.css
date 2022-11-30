@@ -683,6 +683,12 @@ input:-webkit-autofill:focus {
   position: relative;
 }
 
+.hero-content {
+  background-color: #00000099;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
 .hero-content .logo {
   padding-bottom: 20px;
   border-bottom: 1px solid #ffffff;
