@@ -683,7 +683,7 @@ input:-webkit-autofill:focus {
 }
 
 .hero-content {
-  background-color: #00000099;
+  background-color: #00000090;
   padding: 2rem;
   border-radius: 10px;
   width: 100%;
@@ -824,79 +824,6 @@ input:-webkit-autofill:focus {
 }
 
 /*  ----------------------------------------------------
-10. VIDEO SECTION
--------------------------------------------------------- */
-.video-section {
-  top: 0%;
-  left: 0%;
-  height: 550px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-video,
-object {
-  min-width: 100%;
-  min-height: 100%;
-}
-
-.audio {
-  width: 100%;
-}
-
-/* Play/Pause Button   */
-.video-button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -50px;
-}
-
-.video-button a i {
-  display: inline-block;
-  font-size: 44px;
-  line-height: 100px;
-  text-align: center;
-  font-style: normal;
-  color: #fff;
-  background: none;
-  border: 1px solid #fff;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-}
-
-.video-button .pause i {
-  opacity: 0;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.video-button .play i:before {
-  left: 1px;
-  position: relative;
-  top: 1px;
-}
-
-.video-section:hover .video-button .pause i {
-  opacity: 1;
-}
-
-.video-button a i:before {
-  content: "\f04b";
-  z-index: 10;
-  font-family: FontAwesome;
-}
-
-.video-button a.pause i:before {
-  content: "\f04c";
-}
-
-/*  ----------------------------------------------------
 11. PROJECT SECTION
 -------------------------------------------------------- */
 .portfolio-categories {
@@ -908,7 +835,7 @@ object {
   color: #616161;
   font-size: 16px;
   font-weight: 500;
-  float: left;
+  /* float: left; */
   display: inline-block;
   margin-right: 40px;
 }
