@@ -278,10 +278,10 @@ input:-webkit-autofill:focus {
   background: #52b8ff;
   /* fallback for old browsers */
 
-  background: -webkit-linear-gradient(to left, #52b8ff, #333);
+  background: -webkit-linear-gradient(to left, #52b8ff, #6c6c6c);
   /* Chrome 10-25, Safari 5.1-6 */
 
-  background: linear-gradient(to left, #52b8ff, #333);
+  background: linear-gradient(to left, #52b8ff, #6c6c6c);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -441,6 +441,7 @@ input:-webkit-autofill:focus {
   border: 1px solid #fff;
   color: #fff;
   background-color: green;
+  border-radius: 10px;
 }
 
 .btn-gradient {
@@ -1303,9 +1304,9 @@ object {
 
 .testimonial-item:hover .testimonial-box:after {
   background-image: #52b8ff;
-  background-image: -webkit-linear-gradient(to left, #52b8ff, #333);
-  background-image: linear-gradient(to left, #52b8ff, #333);
-  border-top-color: #d940fd;
+  background-image: -webkit-linear-gradient(to left, #52b8ff, #fff);
+  background-image: linear-gradient(to left, #52b8ff, #fff);
+  border-top-color: #52b8ff;
 }
 
 .testimonial-item:hover .testimonial-box i,
@@ -1470,7 +1471,7 @@ object {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   padding: 15px 20px;
-  color: #333333;
+  color: #333;
 }
 
 .single-accordion .panel-heading a i {
@@ -1630,7 +1631,7 @@ object {
 }
 
 .btn-fill:hover {
-  background: #ba34fe;
+  background: green;
 }
 
 /*  ----------------------------------------------------
@@ -1658,8 +1659,6 @@ object {
 .footer-area a:hover {
   color: #cccccc;
 }
-
-.footer-social {}
 
 .footer-social li {
   display: inline;
@@ -1696,64 +1695,4 @@ object {
 .footer-menu li a {
   display: inline-block;
   margin-left: 30px;
-}
-
-/*  ----------------------------------------------------
-20. BLOG PAGE
--------------------------------------------------------- */
-
-.pagination {
-  display: block;
-  clear: both;
-}
-
-.navigation.pagination .nav-links .page-numbers {
-  width: 36px;
-  height: 36px;
-  line-height: 36px;
-  border: 1px solid #52b8ff;
-  border-radius: 50%;
-  text-align: center;
-  display: inline-block;
-}
-
-.navigation.pagination .nav-links .page-numbers.current,
-.navigation.pagination .nav-links .page-numbers:hover {
-  border-color: #ccc;
-}
-
-/*  ----------------------------------------------------
-21. SINGLE BLOG PAGE
--------------------------------------------------------- */
-
-.page-hero h1 {
-  font-weight: 400;
-}
-
-blockquote {
-  margin-top: 15px;
-  margin-bottom: 25px;
-  border: none;
-  padding: 20px;
-  color: #616161;
-  font-size: 16px;
-  font-style: italic;
-}
-
-blockquote i {
-  font-size: 20px;
-  margin-right: 10px;
-}
-
-.post-comment .st-form input,
-.post-comment .st-form textarea {
-  background: #ffffff;
-}
-
-.post-comment .st-form input[type="submit"] {
-  background: #52b8ff;
-}
-
-.post-comment .st-form input[type="submit"]:hover {
-  background: #d840fd;
 }
