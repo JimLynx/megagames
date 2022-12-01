@@ -120,7 +120,7 @@ textarea {
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus {
-  -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
 }
 
 /* - 2-1 PADDING */
@@ -440,19 +440,19 @@ input:-webkit-autofill:focus {
 .btn_green {
   border: 1px solid #fff;
   color: #fff;
-  background-color: #56cc35;
+  background-color: green;
 }
 
-.btn-gredient {
+.btn-gradient {
   border: 1px solid #ccc;
   color: #52b8ff;
 }
 
-.btn-gredient:hover::before {
+.btn-gradient:hover::before {
   background-image: none;
 }
 
-.btn-gredient.gradient-border:hover::after {
+.btn-gradient.gradient-border:hover::after {
   background-color: #52b8ff;
 }
 
@@ -627,8 +627,6 @@ input:-webkit-autofill:focus {
   color: #ffffff;
 }
 
-.header .navbar-nav li {}
-
 .header .navbar-nav li a {
   color: #ffffff;
   font-weight: 500;
@@ -642,7 +640,7 @@ input:-webkit-autofill:focus {
 .header .navbar-nav li a:hover,
 .header .navbar-nav li.active a {
   background: none;
-  color: #cccccc;
+  color: #ccc;
 }
 
 .nav-sticky {
@@ -703,7 +701,7 @@ input:-webkit-autofill:focus {
 }
 
 .hero-content .btn:hover {
-  background: #333;
+  background: #52b8ff;
   border: 1px solid #333;
 }
 
@@ -764,7 +762,7 @@ input:-webkit-autofill:focus {
   color: #fff;
 }
 
-.icon-box:hover .btn-gredient::before {
+.icon-box:hover .btn-gradient::before {
   background-image: none;
 }
 
