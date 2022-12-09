@@ -687,6 +687,7 @@ input:-webkit-autofill:focus {
   padding: 2rem;
   border-radius: 10px;
   width: 100%;
+  border: 1px solid #52b8ff;
 }
 
 .hero-content .logo {
@@ -1421,6 +1422,10 @@ input:-webkit-autofill:focus {
 .btn-fill:hover {
   background: green;
 }
+
+/* Calendly */
+
+
 
 /*  ----------------------------------------------------
 19. FOOTER SECTION

@@ -36,6 +36,8 @@
     <link href="css/owl.theme.css" rel="stylesheet">
     <!-- Animate CSS -->
     <link href="css/animate.min.css" rel="stylesheet" />
+    <!-- Calendly CSS -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
     <!-- Responsive CSS for this template -->
@@ -99,7 +101,7 @@
 
     <!-- ========== hero section ========== -->
     <section id="home" class="hero_half_screen text-center parallax-window" data-parallax="scroll"
-        data-image-src="img/megagames-van.webp">
+        data-image-src="img/mg-hero.webp">
         <div class="bg-overlay-gradient opacity-5"></div>
         <div class="pt210 pb120">
             <div class="container">
@@ -132,7 +134,7 @@
 
                 <!-- single service box start-->
                 <div class="col-md-4 col-xs-12 col-sm-6">
-                    <div class="icon-box mb30 pl20 pr20 pt40 pb50 text-center animated fadeInDown wow"
+                    <div class="icon-box mb30 pl20 pr20 pt20 pb20 text-center animated fadeInDown wow"
                         data-wow-delay=".1s">
                         <div class="icon-focus mb45">
                             <i class="pe-7s-car"></i>
@@ -148,7 +150,7 @@
 
                 <!-- single service box start-->
                 <div class="col-md-4 col-xs-12 col-sm-6">
-                    <div class="icon-box mb30 pl20 pr20 pt40 pb50 text-center animated fadeInDown wow"
+                    <div class="icon-box mb30 pl20 pr20 pt20 pb20 text-center animated fadeInDown wow"
                         data-wow-delay=".2s">
                         <div class="icon-focus mb45">
                             <i class="pe-7s-wine"></i>
@@ -162,7 +164,7 @@
                 <!-- single service box end-->
                 <!-- single service box start-->
                 <div class="col-md-4 col-xs-12 col-sm-6">
-                    <div class="icon-box mb30 pl20 pr20 pt40 pb50 text-center animated fadeInDown wow"
+                    <div class="icon-box mb30 pl20 pr20 pt20 pb20 text-center animated fadeInDown wow"
                         data-wow-delay=".3s">
                         <div class="icon-focus mb45">
                             <i class="pe-7s-junk"></i>
@@ -209,6 +211,45 @@
         </div>
     </section>
 
+    <!-- ========== Counter section  Start ========== -->
+    <section class="counter_section" style="background-image: url('img/xbox-hand.png')">
+        <div class="bg-overlay-gradient opacity-9"></div>
+        <div class="counter_section_inner  pt80 pb80">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12">
+                        <!--counter box-->
+                        <div class="counter_box pt40 pb40 pr30 pl30 text-center fadeInDown animated wow"
+                            data-wow-delay=".1s">
+                            <img src="img/xbox-x.webp" alt="">
+                            <!-- <h3 class="counter_name">XBOX</h3> -->
+                        </div>
+                        <!--counter box end-->
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <!--counter box-->
+                        <div class="counter_box pt40 pb40 pr30 pl30 text-center fadeInDown animated wow"
+                            data-wow-delay=".2s">
+                            <img src="/img/Nintendo-Switch.webp" alt="">
+                            <!-- <h3 class="counter_name">NINTENDO</h3> -->
+                        </div>
+                        <!--counter box end-->
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <!--counter box-->
+                        <div class="counter_box pt40 pb40 pr30 pl30 text-center fadeInDown animated wow"
+                            data-wow-delay=".4s">
+                            <img src="img/ps5.webp" alt="">
+                            <!-- <h3 class="counter_name">PLAYSTATION</h3> -->
+                        </div>
+                        <!--counter box end-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== Counter section  End ========== -->
+
     <!-- ========== Pricing section  Start ========== -->
     <section id="pricing" class="pt80 pb80 gray-bg">
         <div class="container">
@@ -225,7 +266,7 @@
             <!-- end section title  -->
 
             <div class="row">
-                <!-- start single table -->
+                <!-- 90 minute party -->
                 <div class="col-xs-12 col-sm-4">
                     <div class="price-box icon-box pt45 pb50 pl30 pr30 mb30 fadeInLeft animated wow"
                         data-wow-delay=".1s">
@@ -243,18 +284,13 @@
                             <li><i class="fa fa-check"></i>Choose an ideal date and time</li>
                         </ul>
                         <div class="mt35 text-center">
-                            <script async defer src="https://js.appointlet.com/"></script>
-                            <link href="https://js.appointlet.com/styles.css" rel="stylesheet">
-                            <a class="btn gradient-border btn-gradient" data-appointlet-modal
-                                href="https://appt.link/90-mega-games/example-meeting">
-                                Book Now
-                            </a>
+                            <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/megagamesvan/90min'});return false;"class="btn gradient-border btn-gradient">Book Now</a>
                         </div>
                     </div>
                 </div>
                 <!-- end single table -->
 
-                <!-- start single table -->
+                <!-- 2 hour party -->
                 <div class="col-xs-12 col-sm-4">
                     <div class="price-box icon-box pt45 pb50 pl30 pr30 mb30 fadeInLeft animated wow"
                         data-wow-delay=".1s">
@@ -272,9 +308,10 @@
                             <li><i class="fa fa-check"></i>Choose an ideal date and time</li>
                         </ul>
                         <div class="mt35 text-center">
-                            <a href="https://calendly.com/megagamesvan/90min?embed_domain=127.0.0.1%3A5500&embed_type=PopupWidget&back=1" class="btn gradient-border btn-gradient">Book Now</a>
-                            
+                            <a href="TBA"
+                                class="btn gradient-border btn-gradient">Book Now</a>
                         </div>
+
                     </div>
                 </div>
                 <!-- end single table -->
@@ -385,12 +422,6 @@
                         <h2 class="fadeIn animated wow" data-wow-delay=".1s">Latest Games</h2>
                         <i class="pe-7s-angle-down-circle gradient-text-full"></i>
                     </div>
-                    <div class="consoles container">
-                        <img src="img/ps5.webp" alt="Playstation 5 logo">
-                        <img src="img/Nintendo-Switch.webp" alt="Switch logo">
-                        <img src="img/xbox-x.webp" alt="Xbox logo">
-                    </div>
-
                 </div>
             </div>
 
@@ -400,7 +431,7 @@
                 <div class="filtr-item col-xs-12 col-sm-6 col-md-4" data-category="1 , 2">
                     <div class="project_box">
                         <img class="img-full"
-                            src="data:image/jpeg;base64,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"
+                            src="https://image.api.playstation.com/vulcan/ap/rnd/202211/0321/GTfjX9RaN2y66lA22bkthbJ8.png"
                             alt="pro1" />
                         <div class="product_info">
                             <div class="product_info_text">
@@ -554,10 +585,13 @@
                     </div>
                 </div>
                 <!-- end single project -->
+
                 <!-- start single project -->
                 <div class="filtr-item col-xs-12 col-sm-6 col-md-4" data-category="1 , 2">
                     <div class="project_box">
-                        <img class="img-full" src="img/project/project-thumb-4.jpg" alt="pro1" />
+                        <img class="img-full"
+                            src="https://assets1.ignimgs.com/2018/03/06/fortnite---button-1520296499714.jpg?width=300&crop=1%3A1%2Csmart"
+                            alt="pro1" />
                         <div class="product_info">
                             <div class="product_info_text">
                                 <a href="#" data-toggle="modal" data-target="#project-detail-4">View Details</a>
@@ -607,7 +641,8 @@
                 <!-- start single project -->
                 <div class="filtr-item col-xs-12 col-sm-6 col-md-4" data-category="3 , 1">
                     <div class="project_box">
-                        <img class="img-full" src="img/project/project-thumb-5.jpg" alt="pro1" />
+                        <img class="img-full" src="https://upload.wikimedia.org/wikipedia/en/a/a0/Mariokart8deluxe.jpg"
+                            alt="pro1" />
                         <div class="product_info">
                             <div class="product_info_text">
                                 <a href="#" data-toggle="modal" data-target="#project-detail-5">View Details</a>
@@ -615,7 +650,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- fiveth project modal -->
+                <!-- fifth project modal -->
                 <div class="modal fade" id="project-detail-5">
                     <div class="modal-dialog modal-lg" role="document">
                         <div class="modal-content">
@@ -656,7 +691,9 @@
                 <!-- start single project -->
                 <div class="filtr-item col-xs-12 col-sm-6 col-md-4" data-category="2 , 3">
                     <div class="project_box">
-                        <img class="img-full" src="img/project/project-thumb-6.jpg" alt="pro1" />
+                        <img class="img-full"
+                            src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ef02abe3-63cc-4dfa-8eab-5543cf3bcf4f/de5xlu5-f732790f-8afc-4dfb-9a6a-e3d6c02cd186.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VmMDJhYmUzLTYzY2MtNGRmYS04ZWFiLTU1NDNjZjNiY2Y0ZlwvZGU1eGx1NS1mNzMyNzkwZi04YWZjLTRkZmItOWE2YS1lM2Q2YzAyY2QxODYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.7DCCSp1irrKj1nleRnNRknLPaV0AIs-sz8iHg2mhw48"
+                            alt="pro1" />
                         <div class="product_info">
                             <div class="product_info_text">
                                 <a href="#" data-toggle="modal" data-target="#project-detail-6">View Details</a>
@@ -714,10 +751,9 @@
     </section>
     <!-- ========== Project section  End ========== -->
 
-
-
     <!-- ========== Counter section  Start ========== -->
-    <section class="counter_section" style="background-image: url('img/mg-front.jpg')">
+    <section class="counter_section"
+        style="background-image: url('https://static01.nyt.com/images/2020/11/07/business/05techfix1/merlin_179317002_bdab34db-887e-4d98-9d35-989134dda4af-articleLarge.jpg?quality=75&auto=webp&disable=upscale')">
         <div class="bg-overlay-gradient opacity-9"></div>
         <div class="counter_section_inner  pt80 pb80">
             <div class="container">
@@ -899,8 +935,8 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="section-title mb40">
-                        <h6 class="fadeIn animated wow" data-wow-delay=".2s">helpful <span>Answers</span></h6>
-                        <h2 class="fadeIn animated wow" data-wow-delay=".1s">Frequently Asked and question</h2>
+                        <h6 class="fadeIn animated wow" data-wow-delay=".2s">Helpful <span>Answers</span></h6>
+                        <h2 class="fadeIn animated wow" data-wow-delay=".1s">Frequently Asked Questions</h2>
                         <i class="pe-7s-angle-down-circle gradient-text-full"></i>
                     </div>
                 </div>
@@ -912,16 +948,18 @@
                         <div class="panel single-accordion">
                             <div class="panel-heading" role="tab" id="headingOne">
                                 <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
-                                    aria-expanded="true" aria-controls="collapseOne"> Question number One? <i
-                                        class="pe-7s-angle-down-circle pull-right"></i>
+                                    aria-expanded="true" aria-controls="collapseOne"> What do I need to provide on the
+                                    day?
+                                    <i class="pe-7s-angle-down-circle pull-right"></i>
                                 </a>
                             </div>
                             <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
                                 aria-labelledby="headingOne">
                                 <div class="panel-body">
-                                    <p>Lorem Ipsum is simply ndustry's standard dummy text ever since the dummy tex of
-                                        the printing and typesetting industry. ndustry's standard dummy text ever since
-                                        the Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
+                                    <p>We’ll just require access to a standard household plug point on arrival. We
+                                        provide plenty of extension leads and can connect to an outside powerpoint, your
+                                        garage or through a window into your house or venue. We bring everything else!
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -929,16 +967,17 @@
                         <div class="panel single-accordion">
                             <div class="panel-heading" role="tab" id="headingTwo">
                                 <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
-                                    aria-expanded="true" aria-controls="collapseTwo"> Question number Two? <i
-                                        class="pe-7s-angle-down-circle pull-right"></i>
+                                    aria-expanded="true" aria-controls="collapseTwo"> How many can play inside the van
+                                    at any one time?
+                                    <i class="pe-7s-angle-down-circle pull-right"></i>
                                 </a>
                             </div>
                             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
                                 aria-labelledby="headingTwo">
                                 <div class="panel-body">
-                                    <p>Lorem Ipsum is simply ndustry's standard dummy text ever since the dummy tex of
-                                        the printing and typesetting industry. ndustry's standard dummy text ever since
-                                        the Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
+                                    <p>Each van caters for 12 children at a time. We have 10 x 40” TV screens linked to
+                                        individual Xbox and Playstation consoles as well as 2 hand-held Nintendo
+                                        Switches. </p>
                                 </div>
                             </div>
                         </div>
@@ -946,16 +985,17 @@
                         <div class="panel single-accordion">
                             <div class="panel-heading" role="tab" id="headingThree">
                                 <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
-                                    aria-expanded="true" aria-controls="collapseThree"> Question number Three? <i
-                                        class="pe-7s-angle-down-circle pull-right"></i>
+                                    aria-expanded="true" aria-controls="collapseThree"> Do I need to provide internet?
+                                    <i class="pe-7s-angle-down-circle pull-right"></i>
                                 </a>
                             </div>
                             <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
                                 aria-labelledby="headingThree">
                                 <div class="panel-body">
-                                    <p>Lorem Ipsum is simply ndustry's standard dummy text ever since the dummy tex of
-                                        the printing and typesetting industry. ndustry's standard dummy text ever since
-                                        the Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
+                                    <p>Usually not. We have 3 separate networks in the van and will find the strongest
+                                        on arrival when setting up. However if your house or venue is very remote and
+                                        has weak signal, we can connect to your broadband (if available).
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -963,16 +1003,17 @@
                         <div class="panel single-accordion">
                             <div class="panel-heading" role="tab" id="headingFour">
                                 <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour"
-                                    aria-expanded="true" aria-controls="collapseFour"> Question number Three? <i
-                                        class="pe-7s-angle-down-circle pull-right"></i>
+                                    aria-expanded="true" aria-controls="collapseFour"> Are children safe online?
+                                    <i class="pe-7s-angle-down-circle pull-right"></i>
                                 </a>
                             </div>
                             <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
                                 aria-labelledby="headingFour">
                                 <div class="panel-body">
-                                    <p>Lorem Ipsum is simply ndustry's standard dummy text ever since the dummy tex of
-                                        the printing and typesetting industry. ndustry's standard dummy text ever since
-                                        the Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
+                                    <p>Yes, although some games are online multiplayer, we ensure that all consoles have
+                                        strict security management to ensure that they are not visible online and that
+                                        nobody outside the gaming van can message or add our consoles. The consoles are
+                                        linked though so kids can play multiplayer games safely with each other.</p>
                                 </div>
                             </div>
                         </div>
@@ -999,17 +1040,12 @@
             </div>
             <!-- section title end -->
             <div class="row">
+
                 <!-- contact content start -->
                 <div class="col-md-4 col-sm-6 col-xs-12 contact-info pr30 fadeIn  wow animated" data-wow-delay=".1s">
                     <h3>Contact Information</h3>
                     <p>If you have a query, please feel free to get in touch.</p>
                     <div class="mt45">
-                        <!-- <div class="contact-info-box mb20">
-                            <i class="fa fa-map-marker"></i>
-                            <div class="contact-info-terms">
-                                <p>Address : 350 Fifth Avenue, <br>3th floor. New York.</p>
-                            </div>
-                        </div> -->
                         <div class="contact-info-box mb20">
                             <i class="fa fa-phone"></i>
                             <div class="contact-info-terms">
@@ -1026,7 +1062,7 @@
                         <div class="contact-info-box">
                             <i class="fa fa-globe"></i>
                             <div class="contact-info-terms">
-                                <p>Website : <a href="http://www.megagames.ie">megagames.ie</a>
+                                <p>Website : <a href="http://www.megagames.ie">www.megagames.ie</a>
                                 </p>
                             </div>
                         </div>
@@ -1073,14 +1109,13 @@
                     </form>
                 </div>
                 <!-- contact form end -->
-
             </div>
         </div>
     </section>
     <!-- ========== Contact section  End ========== -->
 
     <!-- ========== Footer Start ========== -->
-    <footer id="footer" class="footer-area" style="background-image: url('img/footer-bg.jpg')">
+    <footer id="footer" class="footer-area" style="background-image: url('img/xbox-hand.png')">
         <div class="bg-overlay-gradient opacity-9"></div>
         <!-- footer top start -->
         <div class="footer-top text-center pt80 pb80">
@@ -1090,13 +1125,15 @@
                         <a class="logo mb30 fadeIn  wow animated" data-wow-delay=".2s" href="#">Mega Games</a>
                         <!-- footer social icon -->
                         <ul class="footer-social">
-                            <li class="fadeIn  wow animated" data-wow-delay=".1s"><a href="#"><i
+                            <li class="fadeIn  wow animated" data-wow-delay=".1s"><a
+                                    href="https://www.facebook.com/profile.php?id=100063469693379" target="_blank"><i
                                         class="fa fa-facebook"></i></a>
                             </li>
-                            <li class="fadeIn  wow animated" data-wow-delay=".4s"><a href="#"><i
+                            <!-- <li class="fadeIn  wow animated" data-wow-delay=".4s"><a href="#"><i
                                         class="fa fa-twitter"></i></a>
-                            </li>
-                            <li class="fadeIn  wow animated" data-wow-delay=".5s"><a href="#"><i
+                            </li> -->
+                            <li class="fadeIn  wow animated" data-wow-delay=".5s"><a
+                                    href="https://www.linkedin.com/company/mega-games-ie"><i
                                         class="fa fa-linkedin"></i></a>
                             </li>
                         </ul>
@@ -1114,13 +1151,13 @@
                     </div>
                     <div class="col-sm-6">
                         <ul class="footer-menu">
-                            <li><a href="#">Support</a>
+                            <!-- <li><a href="#">Support</a>
                             </li>
                             <li><a href="#">Sitemap</a>
+                            </li> -->
+                            <li><a href="#contact">Contact US</a>
                             </li>
-                            <li><a href="#">Contact US</a>
-                            </li>
-                            <li><a href="#">Terms of Use</a>
+                            <li><a href="#">Terms of Booking</a>
                             </li>
                         </ul>
                     </div>
@@ -1155,22 +1192,11 @@
     <script src="js/jquery.ajaxchimp.min.js"></script>
     <!-- WOW JS -->
     <script src="js/wow.min.js"></script>
+    <!-- Calendly script -->
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
     <!-- jquery custom.js for document ready function and window load function -->
     <script src="js/main.js"></script>
     <!-- Initialize -->
-    <script type="text/javascript">
-        function vidplay() {
-            var video = document.getElementById("videoPlayer");
-            var button = document.getElementById("playbtn");
-            if (video.paused) {
-                video.play();
-                button.className = "pause"
-            } else {
-                video.pause();
-                button.className = "play"
-            }
-        }
-    </script>
 </body>
 
 </html>
