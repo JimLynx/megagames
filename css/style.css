@@ -685,6 +685,7 @@ CTA
 
 }
 
+/* CREDIT: Corner triangle inspiration from http://jsfiddle.net/jsFiddlePlayer/vhg7csb7/31/ */
 div#cta {
   display: block;
   width: 80px;
@@ -693,7 +694,6 @@ div#cta {
   border-width: 0 180px 180px 0; /* adjust for size of triangle */
 	border-bottom: 140px solid #56cc35;
 	border-left: 140px solid transparent;
-
   position: fixed;
   bottom: 0;
   right: -200px;
