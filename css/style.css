@@ -1425,10 +1425,19 @@ input:-webkit-autofill:focus {
 
 /* Calendly */
 
+/*  ----------------------------------------------------
+      CONFIRMATION PAGE
+-------------------------------------------------------- */
 
+#confirm {
+  background: url('../img/megagames-van.webp') no-repeat center center;
+  width: auto;
+  height: 100vh;
+  
+}
 
 /*  ----------------------------------------------------
-19. FOOTER SECTION
+        FOOTER SECTION
 -------------------------------------------------------- */
 
 .footer-area {
