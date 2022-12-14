@@ -441,7 +441,6 @@ input:-webkit-autofill:focus {
   border: 1px solid #fff;
   color: #fff;
   background-color: green;
-  border-radius: 10px;
 }
 
 .btn-gradient {
@@ -614,10 +613,6 @@ input:-webkit-autofill:focus {
 5. HEADER
 -------------------------------------------------------- */
 
-.header {
-  border-bottom: 1px solid #ffffff;
-}
-
 .logo {
   font-size: 36px;
   color: #ffffff;
@@ -675,8 +670,77 @@ input:-webkit-autofill:focus {
 }
 
 /*  ----------------------------------------------------
+CTA
+-------------------------------------------------------- */
+
+#cta {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.cta-btn {
+  border-radius: 10px;
+
+}
+
+div#cta {
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-style: solid;
+  border-width: 0 180px 180px 0; /* adjust for size of triangle */
+	border-bottom: 140px solid #56cc35;
+	border-left: 140px solid transparent;
+
+  position: fixed;
+  bottom: 0;
+  right: -200px;
+  z-index: 99999;
+  color: white;
+  text-shadow: 0 0 25px 9px #fff;
+  -webkit-filter: drop-shadow(0 1px 9px #000000);
+  filter: drop-shadow(0 1px 9px #000000);
+}
+
+div#cta .corner-triangle-text {
+  position: relative;
+  font-size: 2rem;
+  bottom: -85px;
+  right: 70px;
+  font-family: sans-serif, "Helvetica Neue", Helvetica, Arial;
+  font-weight: 200;
+  line-height: 1.1;
+  -webkit-transform: rotate(45deg); 
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(-45deg);
+}
+
+div#cta .corner-triangle-text span.corner-triangle-firstline {
+  margin-left: 29px;
+}
+
+div#cta .corner-triangle-text a {
+  color: white;
+}
+div#cta .corner-triangle-text a:hover,
+div#cta .corner-triangle-text a:link,
+div#cta .corner-triangle-text a:visited,
+div#cta .corner-triangle-text a:active,
+div#cta .corner-triangle-text a:focus {
+  text-decoration: none;
+}
+
+/*  ----------------------------------------------------
 6. HERO SECTION
 -------------------------------------------------------- */
+
+#home {
+  height: 80vh;
+}
 
 .hero_half_screen {
   position: relative;
@@ -1433,7 +1497,7 @@ input:-webkit-autofill:focus {
   background: url('../img/megagames-van.webp') no-repeat center center;
   width: auto;
   height: 100vh;
-  
+
 }
 
 /*  ----------------------------------------------------
@@ -1450,7 +1514,7 @@ input:-webkit-autofill:focus {
 
 .footer-top .logo {
   border-bottom: 1px solid #ffffff;
-  padding-bottom: 20px;
+  padding-bottom: 70px;
 }
 
 .footer-area a {
