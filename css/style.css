@@ -1387,7 +1387,7 @@ div#cta .corner-triangle-text a:focus {
   background-color: #fafafa;
 }
 
-.email-success,
+/* .email-success,
 .email-failed,
 .email-loading {
   font-size: 15px;
@@ -1425,7 +1425,7 @@ div#cta .corner-triangle-text a:focus {
   font-size: 20px;
   position: relative;
   top: 5px;
-}
+} */
 
 /* - 18-2 FORM STYLE */
 

@@ -127,48 +127,48 @@ $(document).ready(function() {
     };
 
     /******************** 2.9 Contact form ********************/
-    $("#contact-form").on('submit', function(e) {
-        e.preventDefault();
-        var success = $(this).find('.email-success'),
-            failed = $(this).find('.email-failed'),
-            loader = $(this).find('.email-loading'),
-            postUrl = $(this).attr('action');
+    // $("#contact-form").on('submit', function(e) {
+    //     e.preventDefault();
+    //     var success = $(this).find('.email-success'),
+    //         failed = $(this).find('.email-failed'),
+    //         loader = $(this).find('.email-loading'),
+    //         postUrl = $(this).attr('action');
 
-        var data = {
-            name: $(this).find('.contact-name').val(),
-            email: $(this).find('.contact-email').val(),
-            subject: $(this).find('.contact-subject').val(),
-            message: $(this).find('.contact-message').val()
-        };
-        if (isValidEmail(data['email']) && (data['message'].length > 1) && (data['name'].length > 1)) {
-            $.ajax({
-                type: "POST",
-                url: postUrl,
-                data: data,
-                beforeSend: function() {
-                    loader.fadeIn(1000);
-                },
-                success: function(data) {
-                    loader.fadeOut(1000);
-                    success.delay(500).fadeIn(1000);
-                    failed.fadeOut(500);
-                },
-                error: function(xhr) { // if error occured
-                    loader.fadeOut(1000);
-                    failed.delay(500).fadeIn(1000);
-                    success.fadeOut(500);
-                },
-                complete: function() {
-                    loader.fadeOut(1000);
-                }
-            });
-        } else {
-            loader.fadeOut(1000);
-            failed.delay(500).fadeIn(1000);
-            success.fadeOut(500);
-        }
-        return false;
-    });
+    //     var data = {
+    //         name: $(this).find('.contact-name').val(),
+    //         email: $(this).find('.contact-email').val(),
+    //         subject: $(this).find('.contact-subject').val(),
+    //         message: $(this).find('.contact-message').val()
+    //     };
+    //     if (isValidEmail(data['email']) && (data['message'].length > 1) && (data['name'].length > 1)) {
+    //         $.ajax({
+    //             type: "POST",
+    //             url: postUrl,
+    //             data: data,
+    //             beforeSend: function() {
+    //                 loader.fadeIn(1000);
+    //             },
+    //             success: function(data) {
+    //                 loader.fadeOut(1000);
+    //                 success.delay(500).fadeIn(1000);
+    //                 failed.fadeOut(500);
+    //             },
+    //             error: function(xhr) { // if error occured
+    //                 loader.fadeOut(1000);
+    //                 failed.delay(500).fadeIn(1000);
+    //                 success.fadeOut(500);
+    //             },
+    //             complete: function() {
+    //                 loader.fadeOut(1000);
+    //             }
+    //         });
+    //     } else {
+    //         loader.fadeOut(1000);
+    //         failed.delay(500).fadeIn(1000);
+    //         success.fadeOut(500);
+    //     }
+    //     return false;
+    // });
 	
 	/******************** 2.10 WOW JS ********************/
 	var wow = new WOW(
