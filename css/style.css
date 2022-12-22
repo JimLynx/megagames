@@ -208,6 +208,10 @@ input:-webkit-autofill:focus {
   padding-bottom: 120px;
 }
 
+.pt175 {
+  padding-top: 175px ;
+}
+
 .pt210 {
   padding-top: 210px;
 }
@@ -1167,7 +1171,7 @@ div#cta .corner-triangle-text a:focus {
 /*  ----------------------------------------------------
 15. TESTIMONIAL SECTION
 -------------------------------------------------------- */
-.testimonial-item {
+.testimonial-item, .games-item {
   margin-left: 10px;
   margin-right: 10px;
   padding-top: 10px;
@@ -1386,46 +1390,6 @@ div#cta .corner-triangle-text a:focus {
 .message .inner {
   background-color: #fafafa;
 }
-
-/* .email-success,
-.email-failed,
-.email-loading {
-  font-size: 15px;
-  display: none;
-  text-align: center !important;
-  padding: 10px !important;
-}
-
-.email-loading {
-  color: #52b8ff;
-}
-
-.email-loading img {
-  width: 15px;
-  position: relative;
-  top: -2px;
-}
-
-.email-failed {
-  color: #ff5252 !important;
-}
-
-.email-failed .icon {
-  font-size: 20px;
-  position: relative;
-  top: 5px;
-}
-
-.email-success {
-  color: #56cc35;
-}
-
-.email-failed .icon,
-.email-success .icon {
-  font-size: 20px;
-  position: relative;
-  top: 5px;
-} */
 
 /* - 18-2 FORM STYLE */
 

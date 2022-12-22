@@ -120,6 +120,19 @@ $(document).ready(function() {
         autoPlay: true,
     });
 
+    /******************** 2.7 Games carousel ********************/
+    $(".games-carousel").owlCarousel({
+        itemsCustom: [
+            [0, 1],
+            [600, 1],
+            [720, 2],
+            [1000, 3]
+        ],
+        slideSpeed: 1000,
+        pagination: true,
+        autoPlay: true,
+    });
+
     /******************** 2.8 Function for email address validation ********************/
     function isValidEmail(emailAddress) {
         var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
