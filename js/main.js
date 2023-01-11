@@ -63,6 +63,10 @@ $(document).ready(function() {
         scrollOffset: 74,
     });
 
+    $('.navbar-nav>li>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
+
     /******************** 2.3 Animated progress bar ********************/
 
     $('.progress_bar').waypoint(function() {
@@ -90,17 +94,6 @@ $(document).ready(function() {
         autoPlay: true,
     });
 	
-    /******************** 2.5 Portfolio filter ********************/
-    $('#filtr-container').on('click', 'li', function(e) {
-        e.preventDefault();
-        $('#filtr-container li').removeClass('active');
-        $(this).closest('li').addClass('active');
-    });
-		
-    wn.load( function() {
-        $('.filtr-container').filterizr();
-    });
-
     /******************** 2.6 Counter JS ********************/
     $('.counter').counterUp({
         delay: 10,
