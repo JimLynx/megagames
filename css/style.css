@@ -1436,7 +1436,6 @@ div#cta .corner-triangle-text a:focus {
 
 .modal-body {
   width: 100%;
-  /* padding: 2rem; */
 }
 
 #booking-terms h4 {
@@ -1450,7 +1449,6 @@ div#cta .corner-triangle-text a:focus {
 
 .termslogo {
   display: block;
-  margin-left: auto;
   width: 50%;
   max-width: 300px;
   margin: 50px auto;
