@@ -1439,8 +1439,21 @@ div#cta .corner-triangle-text a:focus {
   /* padding: 2rem; */
 }
 
-.modal-body h4 {
+#booking-terms h4 {
   font-weight: 600;
+}
+
+#booking-terms ul li {
+  list-style-type: circle;
+  margin-left: 15px;
+}
+
+.termslogo {
+  display: block;
+  margin-left: auto;
+  width: 50%;
+  max-width: 300px;
+  margin: 50px auto;
 }
 
 /*  ----------------------------------------------------
