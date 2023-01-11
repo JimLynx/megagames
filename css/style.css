@@ -1015,28 +1015,6 @@ div#cta .corner-triangle-text a:focus {
   color: #52b8ff;
 }
 
-/* - 11-1 PROJECT MODAL */
-
-.modal-content {
-  border-radius: 0px;
-}
-
-.modal-title {
-  margin-bottom: 0px;
-}
-
-.modal-body {
-  padding: 0px;
-}
-
-.portfolio-content {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.portfolio-content h3 {
-  font-size: 25px;
-}
 
 /*  ----------------------------------------------------
 12. PRICE SECTION
@@ -1451,7 +1429,19 @@ div#cta .corner-triangle-text a:focus {
   background: green;
 }
 
-/* Calendly */
+
+/*  ----------------------------------------------------
+      TERMS MODAL
+-------------------------------------------------------- */
+
+.modal-body {
+  width: 100%;
+  /* padding: 2rem; */
+}
+
+.modal-body h4 {
+  font-weight: 600;
+}
 
 /*  ----------------------------------------------------
       CONFIRMATION PAGE
